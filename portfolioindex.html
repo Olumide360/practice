@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VICTOR - Portfolio Website</title>
+        <script src="js.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <style>
+
+            .form-container {
+  width: 33.33%;
+  margin: 0 auto;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form label {
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#contact-form input[type="submit"] {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-item {
+  width: 30%;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-item h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.portfolio-item p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.portfolio-item a {
+  display: block;
+  background-color: #726c62f8;
+  body {
+  background-color: #b93e3e;
+  color: #333;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+        </style>
+    </head>
+<body>
+    <!-- navbar section -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">VICTOR</a>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <section id="home">
+        <div class="bgimage">
+            <div class="hero-text">
+                <h1 class="hero_title">Welcome to VICTOR Achitectu</h1>
+                <p class="hero_desc">A portfolio website showcasing my best work</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <div class="portfolio-container">
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/300x200?text=Modern+Residence+in+the+City" alt="Modern Residence in the City">
+          <h3>Modern Residence in the City</h3>
+          <p>This modern residence is located in the heart of the city, offering a unique blend of urban living and contemporary design. The project features an open-concept living space, floor-to-ceiling windows, and a sleek, minimalist aesthetic.</p>
+          <a href="#">View More Details</a>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/300x200?text=Sustainable+Community+Development" alt="Sustainable Community Development">
+          <h3>Sustainable Community Development</h3>
+          <p>This sustainable community development project focuses on creating a vibrant and eco-friendly neighborhood that promotes healthy living and social interaction. The project includes a variety of housing options, community gardens, and green spaces.</p>
+          <a href="#">View More Details</a>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/300x200?text=Historic+Building+Restoration" alt="Historic Building Restoration">
+          <h3>Historic Building Restoration</h3>
+          <p>VICTOR has extensive experience in historic building restoration, preserving the character and charm of these architectural gems while ensuring their structural integrity. This project involved the restoration of a 100-year-old building, transforming it into a modern and functional space.</p>
+          <a href="#">View More Details</a>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/300x200?text=Commercial+Office+Building" alt="Commercial Office Building">
+          <h3>Commercial Office Building</h3>
+          <p>This commercial office building features a modern and functional design, with an emphasis on natural light and open spaces. The project includes a variety of amenities, such as a fitness center, cafeteria, and rooftop terrace.</p>
+          <a href="#">View More Details</a>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://via.placeholder.com/300x200?text=Cultural+Center+and+Museum" alt="Cultural Center and Museum">
+          <h3>Cultural Center and Museum</h3>
+          <p>VICTOR's cultural center and museum project is a testament to the power of architecture to inspire and educate. The project features a dynamic and interactive design, with a focus on showcasing the local culture and history.</p>
+          <a href="#">View More Details</a>
+        </div>
+      </div>
+    <section id="portfolio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Description of Project 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Description of Project 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Description of Project 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 4</h5>
+                            <p class="card-text">Description of Project 4</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 5</h5>
+                            <p class="card-text">Description of Project 5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 6</h5>
+                            <p class="card-text">Description of Project 6</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button id="toggle-button">
+    <svg width="30" heigth="30">
+      <circle cx="15" cy="15" r="6" fill="currentcolor"/>
+      <line
+      id="ray"
+      stroke="currentcolor"
+      stroke-width="2"
+      stroke-linecap="round"
+      x1="15"
+      y1="1"
+      x2="15"
+      y2="4"
+      ></line>
+      <use href="#ray" transform="rotate(45 15 15)" />
+      <use href="#ray" transform="rotate(90 15 15)" />
+      <use href="#ray" transform="rotate(135 15 15)" />
+      <use href="#ray" transform="rotate(180 15 15)" />
+      <use href="#ray" transform="rotate(225 15 15)" />
+      <use href="#ray" transform="rotate(270 15 15)" />
+      <use href="#ray" transform="rotate(315 15 15)" />
+    </svg>
+  </button>
+  <script src="js.js"></script>
+
+    <!-- about section -->
+    <section id="about">
+        <div class="container-fluid">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input/>
+                            <div class="form-container">
+                                <form id="contact-form">
+                                  <label for="name">Name:</label><br>
+                                  <input type="text" id="name" name="name" required><br>
+                                  <label for="email">Email:</label><br>
+                                  <input type="email" id="email" name="email" required><br>
+                                  <label for="message">Message:</label><br>
+                                  <textarea id="message" name="message" required></textarea><br>
+                                  <input type="submit" value="Send">
+                                </form>
+                              </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js.js"></script>
+</body>
+</html>
